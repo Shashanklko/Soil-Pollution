@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("./image/leaves-background-with-metallic-foil_79603-914.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+img:hover {
+  transform: scale3d(1.01, 1.01, 1);
+}
+
+.header {
+  background-image: URL("./image/pexels-sergio-souza-1223942.jpg");
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: hwb(103 21% 0%);
+  font-size: 35px;
+  margin: 0;
+  width: 100%;
+}
+.head > a {
+  text-decoration: none;
+  font-style: none;
+}
+#top{
+  text-align:center;
+  height: 100px;
+  display: block;
+  font-size: 40px;
+}
+.navrow {
+  border: 2px solid black;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  flex-wrap: wrap;
+}
+#navbar {
+  min-width: 100vw;
+  background-color: rgba(125, 125, 125, 0.5);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  color: #184d14;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: helvetica;
+  margin: 5px 10px;
+  height: 2rem;
+  text-align: left;
+  text-decoration: none;
+}
+label:hover {
+  font-weight: 600;
+  transform: scale3d(1.01, 1.01, 1);
+  color: rgba(36,177,180,0.8);
+  text-decoration: underline rgb(97, 187, 223);
+}
+.allrows {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 10em;
+}
+a:hover {
+  font-size: 32px;
+  color: blue;
+}
+.allrows > :visited {
+  color: violet;
+}
+.goback {
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: helvetica;
+}
+.button {
+  margin: 0 40%;
+}
+.button > a {
+  font-style: none;
+  text-decoration: none;
+}
