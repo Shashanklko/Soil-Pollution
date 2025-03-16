@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('./image/new-overcome-background.jpg'); /* Updated to a more relevant image */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img:hover {
+    transform: scale3d(1.01, 1.01, 1);
+}
+
+.header {
+    background-image: URL('./image/new-header-image.jpg'); /* Updated to a more relevant image */
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: rgba(95, 27, 2, 0.8);
+    font-size: 35px; 
+    margin: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.head > a {
+    text-decoration: none;
+    font-style: none;
+}
+
+.navrow {
+    border: 2px solid black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+#navbar {
+    min-width: 100vw;
+    background-color: rgba(125, 125, 125, .5);
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    text-align: left;
+    text-decoration: underline;
+    color: hsl(29, 59%, 26%); /* Removed solidrgb for consistency */
+    font-size: 36px;
+}
+
+h3 {
+    text-align: left;
+    text-decoration: underline;
+    color: hsl(284, 58%, 27%);
+    font-size: xx-large;
+}
+
+h4 {
+    text-align: left;
+    text-decoration: underline;
+    color: hsl(231, 59%, 26%);
+    font-size: x-large;
+}
+
+.sector {
+    padding-left: 5em;
+}
+
+p {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    padding-left: 2em;
+}
+
+ul {
+    padding-left: 10em;
+}
+
+figcaption {
+    font-family: Parkavenue, cursive;
+    font-style: italic;
+    color: rgb(65, 65, 66);
+    text-align: center;
+}
+
+li {
+    color: rgb(59, 6, 6);
+    font-size: x-large;
+}
+
+img {
+    width: 50vw;
+    margin: 0 8em;
+    box-shadow: 10px 10px 10px #000;
+}
+
+.icon {
+    color: purple;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: helvetica;
+    margin: 5em 10px;
+    height: 2rem;
+    text-align: left;
+}
+
+label:hover {
+    font-weight: 600;
+    transform: scale3d(1.01, 1.01, 1);
+    color: rgb(36, 39, 180, 0.8);
+}
+
+.allrows {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em 10em;
+}
+
+.goback {
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: helvetica;
+}
+
+.button {
+    margin: 0 40%;
+    transition: background-color 0.3s; /* Added transition for hover effect */
+}
+
+.button > a {
+    font-style: none;
+    text-decoration: none;
+}
+
+.droplist {
+    display: none;
+    background-color: rgba(150, 150, 150, .5);
+    min-width: 15em;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    position: absolute;
+}
+
+.dropdown:hover .droplist {
+    display: block;
+}
+
+.droplist a {
+    color: white;
+    padding: 12px 16px;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+}
+
+.droplist a:hover {
+    font-size: 27px;
+    text-decoration: underline rgb(88, 147, 224);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown a {
+    text-decoration: none;
+}
+
+figcaption {
+    padding: 1em 0;
+}
