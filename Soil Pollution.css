@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0; 
+}
+
+body {
+    background-image: url('./image/new-background-image.jpg'); /* Updated to a more relevant image */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.navrow {
+    border: 2px solid black;
+} 
+
+#navbar {
+    min-width: 100vw;
+    background-color: rgba(17,170,175,0.8);
+    display: flex;
+    flex-direction: row;
+}
+.icon {
+    color: purple;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: helvetica;
+    margin: 5em 10px;
+    height: 2rem;
+    text-align: left;
+}
+.sticky {
+    position: fixed;
+    top:0;
+}
+
+#navbar>a,.head>a {
+    text-decoration: none;
+    font-style: none;
+}
+
+HEADER {
+    width: 100%;
+}
+h1 {
+    background-image: url('./image/new-banner-image.jpg'); /* Updated to a more relevant image */
+    text-align: center;
+    color: hwb(0 0% 100%);
+    font-size: 50px;
+    min-height: 3em;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    text-align: left;
+    text-decoration: underline;
+    color: hsl(24, 100%, 36%); /* Removed solidrgb for consistency */
+}
+
+.cont {
+    font-size: 25px;
+    color: rgb(2, 2, 2);
+    line-height: 35px;
+}
+
+.img {
+    width: 50vw;
+    margin: 0 8rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.figcaps {
+    font-style: italic;
+    color: rgb(97, 97, 97);
+    text-align: center;
+}
+
+.allrows {
+    padding: 0 10em 0 10em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img:hover {
+    transform: scale3d(1.01, 1.01, 1);
+}
+
+.button {
+    margin: 0 40%;
+    transition: background-color 0.3s; /* Added transition for hover effect */
+}
+
+.goback {
+    color: whitesmoke;
+    transition: color 0.3s; /* Added transition for hover effect */
+    font-weight: 400;
+    font-size: 30px;
+}
+.button > a {
+    font-style: none;
+    text-decoration: none;
+}
+
+.droplist {
+    display: none;
+    background-color: rgba(150,150,150,.5);
+    min-width: 10em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: absolute;
+}
+.dropdown:hover .droplist { display: block; }
+
+.droplist a {
+    color: white;
+    padding: 12px 16px;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+}
+.droplist a:hover {
+    font-size: 27px;
+    text-decoration: underline rgb(88, 147, 224);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown a {
+    text-decoration: none;
+}
+#card {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: large;
+    flex-direction: column;
+    margin-left: 20px;
+}    
+.secr {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+} 
+
+#card img {
+    max-width: 275px;
+    height: 180px;
+}
+
+#card h2 {
+    font-size: 25px;
+}
